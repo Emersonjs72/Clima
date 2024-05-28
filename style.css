@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* COLOCAR SEMPRE NO COMEÇO DO PROGRAMA CSS EM TODOS OS PROJETOS. */
+}
+
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh; /* ALTURA */
+    width: 100vw; /* LARGURA */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa-maior {
+    background-color: black;
+    opacity: 0.8; /* TRANSPARENCIA */
+    width: 95%; /* LARGURA */
+    max-width: 450px; /* LARGURA  MAXIMA */
+    border-radius: 25px; /*ARREDONDAR BORDA*/
+    padding: 25px; /*ESPAÇAMENTO ENTRE AS LINHAS*/
+
+}
+
+.lupa {
+    height: 25px; /* ALTURA */
+    width: 25px;  /* LARGURA */
+    
+}
+
+button{
+    border: none;  /* SEM BORDA */
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    cursor: pointer; /* MAOZINHA DO MOUSE */
+    border-radius: 30%;
+    float: rigth; /* FLUTUI PARAA DIREITA*/
+}
+
+button:hover{
+    background-color: #7c7c7c;
+}
+
+
+input{
+    border: none; /* SEM BORDA */
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+    font-size: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px; /* MARGEN SUPERIOS*/
+}
+.cidade{
+    color: #ffffff;
+    font-size: 20px; 
+}
+
+.temp{
+    color: #ffffff;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.umidade{
+    color: #ffffff;
+    margin-top: 25px;
+    font-size: 13px;
+}
